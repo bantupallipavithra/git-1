@@ -1,0 +1,21 @@
+package constructors.com;
+
+public class Person {
+	String Name;
+	String Address;
+	int Age;
+	public Person(String Name,String Address,int Age) {
+		this.Name=Name;
+		this.Address=Address;
+		this.Age=Age;
+	}
+	public String toString() {
+		return "Name:"+Name+"/n Address:"+Address+"/n Age:"+Age;
+	}
+	public static void main(String[] args) {
+		Person obj=new Person("madhu","hyd",23);
+		System.out.println(obj);
+	}
+	
+
+}

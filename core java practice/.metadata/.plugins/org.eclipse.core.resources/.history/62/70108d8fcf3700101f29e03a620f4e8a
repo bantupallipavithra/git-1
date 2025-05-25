@@ -1,0 +1,5 @@
+package encapsulation.com;
+
+public class FixedDepositAccount {
+
+}

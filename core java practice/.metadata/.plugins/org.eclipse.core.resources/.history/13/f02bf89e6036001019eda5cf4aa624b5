@@ -1,0 +1,25 @@
+package constructors.com;
+
+public class Book1 {
+	String title;
+	String author;
+public Book(String title, String author) {
+		System.out.println( " paramitirized");
+		this.title=title;
+		this.author=author;}
+	
+		public void display() {
+			System.out.println(" title name:"+title);
+			System.out.println("author name:"+author);
+		
+	}
+
+		public static void main(String[] args) {
+			Book book = new Book(" symbol of sucess", "john"); 
+			book.display();
+			
+			
+		}
+}
+
+

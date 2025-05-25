@@ -1,0 +1,24 @@
+package constructors.com;
+
+public class Laptop {
+	String brand;
+	int ramsize;
+	public Laptop(String brand,int ramsize){
+	this. brand= brand;
+	this.ramsize=ramsize;
+	}
+	public void showSpecs(){
+	System.out.println("brand:"+brand);
+	System.out.println("ramsize"+ramsize);
+	}
+	public static void main(String args[]){
+	Scanner sc=new Scanner(System.in);
+	String brand=sc.next();
+	int  ramsize=sc.nextInt();
+	Laptop l=new Laptop();
+	l.showSpecs();
+	Laptop l1=new Laptop("realme",4);
+	l1.showSpecs();
+	}}
+
+

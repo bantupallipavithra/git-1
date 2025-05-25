@@ -1,0 +1,26 @@
+package constructors.com;
+
+public class Circle {
+	double radius;
+	public Circle(double radius) {
+		this.radius=radius;
+		
+	}
+	public double getArea() {
+		return (3.14*radius*radius);
+	}
+		public double getcircumference() {
+		return(2*3.14*radius*radius);
+	}
+	
+	public static void main(String[] args) {
+		Circle circle =new Circle(8);
+//		circle.getArea();
+//		circle.getcircumference();
+		System.out.println("area of circle:"+ circle.getArea());
+		
+		
+	}
+}
+
+

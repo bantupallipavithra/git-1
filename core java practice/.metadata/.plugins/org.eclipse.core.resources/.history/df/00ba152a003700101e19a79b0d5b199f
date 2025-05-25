@@ -1,0 +1,13 @@
+package constructors.com;
+
+import java.util.Scanner;
+
+public class Cat {
+	String catName;
+	String breed;
+	int Age;
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+	}
+
+}

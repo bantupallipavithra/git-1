@@ -1,0 +1,11 @@
+package maths;
+
+public class Adding {
+	
+	public int add(int a,int b)//method defination
+	{
+		System.out.println("Adding class inside math package "+(a+b) );
+		return a+b;
+	}
+
+}

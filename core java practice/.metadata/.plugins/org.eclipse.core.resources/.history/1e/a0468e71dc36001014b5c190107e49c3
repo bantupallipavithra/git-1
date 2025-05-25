@@ -1,0 +1,12 @@
+package constructors.com;
+public class Laptop {
+	String brand;
+	int ramsize;
+	public Laptop(String brand,int ramsize) {
+		this.brand=brand;
+		this.ramsize=ramsize;
+	}
+	public void showSpecs() {
+		
+	}
+}

@@ -1,0 +1,39 @@
+package encapsulation.com;
+
+public class LoanApplication {
+	private String customerName;
+	private double loanAmount;
+	private double intrestRate;
+	private int loanTerm;
+	private double outStandingBalance;
+	public LoanApplication(String customerName,double loanAmount,double intrestRate,int loanTerm,double outStandingBalance) {
+		this.customerName=customerName;
+		this.loanAmount=loanAmount;
+		this.intrestRate=intrestRate;
+		this.loanTerm=loanTerm;
+		this.outStandingBalance=outStandingBalance;
+	}
+	public String getCustomerName() {
+		return customerName;
+	}
+	public double getLoanAmount() {
+		return loanAmount;
+	}
+	public double getIntrestRate() {
+		return intrestRate;
+	}
+	public int getLoanTerm() {
+		return loanTerm;
+	}
+	public double getOutStandingBalance() {
+		return outStandingBalance;
+	}
+	public void setCustomerName(String customerName) {
+		System.out.println(customerName);
+	}
+	public static void main(String[] args) {
+		LoanApplication obj=new LoanApplication();
+		obj.setCustomerName("pavi");
+	}
+}
+

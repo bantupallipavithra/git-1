@@ -1,0 +1,22 @@
+package user.mainclass;
+
+import maths.Adding;
+import maths.Subtarct;
+
+public class MainMethod {
+	public static void main(String[] args)
+	{
+		Adding addobj=new Adding();//obj craetion
+		
+		System.out.println(addobj.add(10, 20));// calling   // add(10,20)==30 // now printing
+		
+		addobj.demo();
+		staticdemo();
+		
+		Subtarct subobj=new Subtarct();
+		
+		System.out.println(subobj.sub(20, 10));
+		
+	}
+
+}

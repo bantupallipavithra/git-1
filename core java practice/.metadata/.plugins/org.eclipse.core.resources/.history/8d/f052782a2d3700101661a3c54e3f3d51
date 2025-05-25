@@ -1,0 +1,25 @@
+package constructors.com;
+
+public class PersonDemo {
+	
+	String name;
+	static int age;
+	
+	public PersonDemo(String name,int age) 
+	{
+		this.name=name;
+		this.age=age;
+	}
+	
+	public static void main(String[] args)
+	{
+		PersonDemo obj=new PersonDemo("cherry",20);
+		System.out.println(obj.name);
+		System.out.println(PersonDemo.age);
+		
+		
+	}
+	
+	
+
+}

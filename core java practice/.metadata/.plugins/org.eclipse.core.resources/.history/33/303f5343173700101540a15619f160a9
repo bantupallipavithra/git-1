@@ -1,0 +1,14 @@
+package constructors.com;
+
+public class Student {
+	int rollno;
+	String name;
+	public Student(int rollno,String name) {
+		this.rollno=rollno;
+		this.name=name;
+	}
+	public void updateDetails(String name) {
+		System.out.println("old name:"+name+"\nnew name:"+name);
+	}
+
+}

@@ -1,0 +1,32 @@
+package constructors.com;
+
+public class rectangle {
+	int length;
+	int breadth;
+	public Rectangle() {
+		length=0;
+		breadth=0;
+		
+	}
+
+	public Rectangle(int length, int breadth) {
+		this.length=length;
+		this.breadth=breadth;
+	}
+	public int  area() {
+	return length*breadth;
+
+	
+		}
+	public static void main(String[] args) {
+		Rectangle rectangle=new Rectangle(3,5);
+		rectangle.area();
+		System.out.println(" area of rectangle:"+ rectangle.area());
+		
+	}
+	
+	
+		
+		
+		
+}

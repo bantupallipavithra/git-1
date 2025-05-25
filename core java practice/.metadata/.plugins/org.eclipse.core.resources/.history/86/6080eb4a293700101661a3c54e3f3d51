@@ -1,0 +1,13 @@
+package user.mainclass;
+
+import maths.Adding;
+
+public class MainMethod {
+	public static void main(String[] args)
+	{
+		Adding addobj=new Adding();
+		
+		System.out.println(addobj.add(10, 20));
+	}
+
+}

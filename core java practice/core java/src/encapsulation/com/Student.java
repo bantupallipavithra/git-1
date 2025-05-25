@@ -1,0 +1,48 @@
+package encapsulation.com;
+
+public class Student {
+	private String name;
+	private int age;
+	private char grade;
+	public Student(String name,int age,char grade) {
+		this.name=name;
+		this.age=age;
+		this.grade=grade;
+	}
+	public String getName() {
+		return name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public char getGrade() {
+		return grade;
+	}
+	 public void setName(String name) {
+		 System.out.println(this.name);
+	 }
+	 public void setAge(int age) {
+		 if(age>5&&age<100) {
+			 System.out.println("valid age:"+age);
+		 }
+		 else {
+			 System.out.println("invalid age");
+		 }
+	 }
+	 public void setGrade(char grade) {
+		 if(grade=='A'||grade=='B'||grade=='C'||grade=='D'||grade=='F') {
+			 System.out.println("valid grade:"+grade);
+		 }
+		 else {
+			 System.out.println("invalid grade");
+		 }
+	 }
+	
+	public static void main(String[] args) {
+		Student s1=new Student("pavi",21,'A');
+		s1.setName("pavi");
+		s1.setAge(1);
+		s1.setGrade('B');
+	}
+
+}

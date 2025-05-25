@@ -1,0 +1,32 @@
+package constructors.com;
+
+public class Laptop {
+	String brand;
+	long ramsize;
+
+	public Laptop(String brand, long ramsize) {
+		this.brand = brand;
+		this.ramsize = ramsize;
+	}
+
+	public void showSpeces() {
+		System.out.println("brand:" + brand);
+		System.out.println("ramsize:" + ramsize);
+
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Laptop Name:");
+		String s = sc.nextLine();
+		System.out.println("Enter RamSize:");
+		long n = sc.nextLong();
+
+		Laptop attribute = new Laptop(s, n);
+		attribute.showSpeces();
+		
+		Laptop lap=new Laptop("Hp",786);
+		lap.showSpeces();
+	}
+
+}

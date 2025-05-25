@@ -1,0 +1,16 @@
+package maths;
+
+public class Subtarct {
+	public int sub(int a,int b)
+	{
+		System.out.println("Subtract class inside math package "+(a-b) );
+		return a-b;
+	}
+	
+	
+	public static void staticdemo()
+	{
+		System.out.println("staticdemo method inside  Subtract class");  //it is a static method so we need no to craete obj while calling
+	}
+
+}
